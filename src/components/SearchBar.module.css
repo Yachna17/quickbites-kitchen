@@ -1,0 +1,25 @@
+.searchForm {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.searchInput {
+  padding-right: 2.5rem;
+  border-radius: 20px;
+  background-color: var(--background);
+}
+
+.searchButton {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  transition: color var(--transition-fast);
+}
+
+.searchButton:hover {
+  color: var(--primary);
+}
